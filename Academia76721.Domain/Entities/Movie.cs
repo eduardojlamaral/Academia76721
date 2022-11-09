@@ -21,6 +21,11 @@ namespace Academia76721.Domain.Entities
 
         public Studio Studio { get; set; }
 
+        public IList<Review> Reviews { get; set; }
+
+        public IList<Comment> Comments { get; set; }
+
+        
 
 
     }

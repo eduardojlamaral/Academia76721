@@ -24,7 +24,7 @@ namespace Academia76721.Domain.Repositories
             throw new NotImplementedException();
         }
 
-        public Actor Insert(Actor item)
+        public Actor Insert(Actor item, ActorType actorType)
         {
             var pesquisa = _actores.First( z=>z.Id == item.Id );
             if (pesquisa == null)
