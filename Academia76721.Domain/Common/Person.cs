@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Academia76721.Domain.Common
 {
-    internal class Person
+    public abstract class Person : BaseEntity<int>
     {
+        // int Id
+        public string Name { get; set; }
+        public DateTime Birthday { get; set; }
+        public string Country { get; set; }
+
     }
 }

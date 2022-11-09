@@ -2,5 +2,6 @@
 {
     public enum MovieType
     {
+        Terror, Ficcao, Comedia, Western
     }
 }

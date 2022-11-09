@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace Academia76721.Domain.Common
 {
-    public interface IBaseEntity<K>
+    public abstract class BaseEntity<K>
     {
         public K Id { get; set; }
+        
     }
 }
